@@ -1,0 +1,16 @@
+name: Build and Test GitHub actions
+on: push
+
+jobs:
+  build_and_test:
+    name: Build and test the GitHub Action
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v1
+
+    - name: Run the private action
+      uses: ./
+      with:
+        input_parameter: MickeyG
