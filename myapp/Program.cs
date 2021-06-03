@@ -11,6 +11,7 @@ namespace myapp
 
             Console.WriteLine("Hello " + name);
             Console.WriteLine("You like " + whatilike);
+            Console.WriteLine("::set-output name=pleasework::yes");
         }
     }
 }

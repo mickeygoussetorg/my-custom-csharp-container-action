@@ -9,6 +9,9 @@ inputs:
     description: something i like
     required: true
     default: kittens
+outputs:
+  pleasework:
+    description: trying to get output from csharp app
 runs:
   using: docker
   image: Dockerfile
