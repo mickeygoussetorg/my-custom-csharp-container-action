@@ -12,6 +12,8 @@ inputs:
 outputs:
   pleasework:
     description: trying to get output from csharp app
+  dad-joke:
+    description: The Dad Joke
 runs:
   using: docker
   image: Dockerfile
