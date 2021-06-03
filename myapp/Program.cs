@@ -10,7 +10,7 @@ namespace myapp
             string whatilike = args[1];
 
             Console.WriteLine("Hello " + name);
-            Console.WriteLine("You like " + name);
+            Console.WriteLine("You like " + whatilike);
         }
     }
 }
