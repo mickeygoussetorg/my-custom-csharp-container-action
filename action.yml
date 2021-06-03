@@ -8,5 +8,5 @@ inputs:
 runs:
   using: docker
   image: Dockerfile
-  env:
-    INPUT_PARAMETER: {{ inputs.input_parameter }}
+#  env:
+#    INPUT_PARAMETER: {{ inputs.input_parameter }}
