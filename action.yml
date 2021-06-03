@@ -1,12 +1,17 @@
 name: My Custom CSharp Action
 description: I am an example of a container action that uses CSharp
 inputs:
-  input_parameter:
-    description: Just an input parameter
+  name:
+    description: a name
     required: true
     default: Elvis
+  whatilike:
+    description: something i like
+    required: true
+    default: kittens
 runs:
   using: docker
   image: Dockerfile
   args:
-    - ${{ inputs.input_parameter }}
+    - ${{ inputs.name }}
+    - ${{ inputs.whatilike }}

@@ -14,4 +14,5 @@ jobs:
     - name: Run the private action
       uses: ./
       with:
-        input_parameter: MickeyG
+        name: MickeyG
+        whatilike: cabbages

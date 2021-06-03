@@ -4,4 +4,4 @@ cd /myapp
 
 dotnet restore
 dotnet build
-dotnet run "$1"
+dotnet run "$1" "$2"
