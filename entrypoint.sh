@@ -4,4 +4,4 @@ cd /myapp
 
 dotnet restore
 dotnet build
-dotnet run "$INPUT_PARAMETER"
+dotnet run "$1"

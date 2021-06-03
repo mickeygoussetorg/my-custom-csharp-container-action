@@ -1,5 +1,6 @@
 name: Build and Test GitHub actions
-on: push
+on:
+  workflow_dispatch:
 
 jobs:
   build_and_test:
