@@ -16,10 +16,6 @@ jobs:
       uses: ./
       with:
         name: MickeyG
-        whatilike: cabbages
-
-    - name: Did I Get Output
-      run: echo "please work = ${{ steps.csharp.outputs.pleasework }}"
 
     - name: Output Dad Joke
       run: echo "${{ steps.csharp.outputs.dad-joke }}"
