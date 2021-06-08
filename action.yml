@@ -5,13 +5,7 @@ inputs:
     description: a name
     required: true
     default: Elvis
-  whatilike:
-    description: something i like
-    required: true
-    default: kittens
 outputs:
-  pleasework:
-    description: trying to get output from csharp app
   dad-joke:
     description: The Dad Joke
 runs:
@@ -19,4 +13,3 @@ runs:
   image: Dockerfile
   args:
     - ${{ inputs.name }}
-    - ${{ inputs.whatilike }}
