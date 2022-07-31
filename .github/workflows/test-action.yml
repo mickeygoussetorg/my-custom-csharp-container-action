@@ -19,3 +19,11 @@ jobs:
 
     - name: Output Dad Joke
       run: echo "${{ steps.csharp.outputs.dad-joke }}"
+      
+    - uses: mickeygoussetorg/my-custom-csharp-container-action@main
+      id: dadjoke2
+      with:
+        name: MickeyG2
+        
+    - name: Output Dad Joke 2
+      run: echo "${{ steps.dadjoke2.outputs.dad-joke }}"
